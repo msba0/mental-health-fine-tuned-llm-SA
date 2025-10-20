@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Ignore model outputs and checkpoints
+runs/
+checkpoints/
+*.pt
+*.bin
+
+# Ignore datasets
+data/raw/
+data/processed/
+
+# Ignore temporary files
+__pycache__/
+*.log
+*.tmp
+*.ipynb_checkpoints/
+
+# VSCode and OS files
+.vscode/
+.DS_Store
+Thumbs.db
