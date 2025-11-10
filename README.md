@@ -2,6 +2,7 @@
 
 This project fine-tunes a small Large Language Model — Qwen2.5-0.5B-Instruct — to generate empathetic, counselling-style responses for mental-health related questions.
 
+&nbsp;
 
 ### The fine-tuning uses:
 
@@ -13,8 +14,7 @@ This project fine-tunes a small Large Language Model — Qwen2.5-0.5B-Instruct �
 
   - Before/After comparison between the baseline model and the fine-tuned model
 
-
-
+&nbsp;
 
 ### To run the demo:
 **1. Clone the repository**
