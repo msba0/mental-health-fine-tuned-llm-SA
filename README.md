@@ -19,8 +19,18 @@ This project fine-tunes a small Large Language Model â€” Qwen2.5-0.5B-Instruct â
 ### To run the demo:
 **1. Clone the repository**
 ```
-cd "C:\path\to\your\target\folder"
+git clone https://github.com/msba0/mental-health-fine-tuned-llm-SA.git
 ```
 ```
 cd mental-health-fine-tuned-llm-SA
 ```
+
+**2. Create the environment**
+```
+conda env create -f environment.yml
+```
+```
+conda activate psyche-r1
+```
+
+
