@@ -5,7 +5,7 @@ dependencies:
   - python=3.10
   - pip
   - git
-  
+
   - numpy>=1.24,<2.0
   - pandas>=2.2
   - scikit-learn>=1.4
@@ -15,27 +15,24 @@ dependencies:
   - protobuf
   - sentencepiece
   - tokenizers
+  - ipywidgets
+
   - ipykernel
   - jupyterlab
   - notebook
-  - ipywidgets
+
   - evaluate
   - tensorboard
   - uvicorn
   - fastapi
 
   - pip:
-      # HF ecosystem
-      - transformers>=4.44
+      - transformers>=4.44,<4.47
       - datasets>=3.0
       - accelerate>=1.0
       - peft>=0.12
       - trl>=0.10
 
-      - llamafactory
-      - verl
-
-      # Metrics / analysis / logging
       - rouge-score
       - sacrebleu
       - bert-score
