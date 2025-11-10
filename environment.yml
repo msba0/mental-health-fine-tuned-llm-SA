@@ -27,14 +27,14 @@ dependencies:
   - fastapi
 
   - pip:
-      - transformers>=4.44,<4.47
+      - transformers>=4.46.3
       - datasets>=3.0
-      - accelerate>=1.0
+      - accelerate>=1.0.0
       - peft>=0.12
       - trl>=0.10
       - tf-keras
-
       - rouge-score
       - sacrebleu
       - bert-score
       - wandb
+      - bitsandbytes==0.43.3
