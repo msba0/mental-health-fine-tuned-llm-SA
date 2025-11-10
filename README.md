@@ -33,4 +33,4 @@ conda env create -f environment.yml
 conda activate psyche-r1
 ```
 
-
+**3. Change the jupyter kernel**
